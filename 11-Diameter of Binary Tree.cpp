@@ -22,6 +22,6 @@ public:
         int left = GetDepth(n->left);
         int right = GetDepth(n->right);
         m_maxDia = max(m_maxDia, left + right);
-        return max(left, right) + 1 ;
+        return max(left, right) + 1;
     }
 };
